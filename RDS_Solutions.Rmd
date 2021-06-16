@@ -2,7 +2,7 @@
 title: "RDS Solutions"
 author: "Patrick Wilbur"
 date: "6/15/2021"
-output: html_document
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
