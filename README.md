@@ -17,7 +17,7 @@ function call, for example
     ggplot(data = mpg) + 
       geom_point(mapping = aes(x = displ, y = hwy), color = "blue")
 
-![](RDS_Solutions_files/figure-markdown_strict/ch3q1-1.png)
+![](README_files/figure-markdown_strict/ch3q1-1.png)
 
 **Question 2** Which variables in mpg are categorical? Which variables
 are continuous? (Hint: type ?mpg to read the documentation for the
@@ -53,7 +53,7 @@ color and size (shape was not included because it simply errored).
     ggplot(data = mpg) +
       geom_point(mapping = aes(x = displ, y = hwy, color = cty, size = cyl))
 
-![](RDS_Solutions_files/figure-markdown_strict/ch3q3-1.png)
+![](README_files/figure-markdown_strict/ch3q3-1.png)
 
 The color and size seem to render as a specturm instead of a discrete
 amount.

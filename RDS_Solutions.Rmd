@@ -3,6 +3,16 @@ title: "RDS Solutions"
 author: "Patrick Wilbur"
 date: "6/15/2021"
 output: md_document
+knit: (
+  function(inputFile, encoding) { 
+
+    pSubTitle <- 'README'
+
+    rmarkdown::render( 
+      input       = inputFile, 
+      encoding    = encoding, 
+      params      = list(sub_title = pSubTitle),      
+      output_file = pSubTitle) })
 ---
 
 ```{r setup, include=FALSE}
